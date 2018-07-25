@@ -4,8 +4,7 @@ Keenpower队采用了相似匹配求解、神经网络、ensemble等技术解决
 
 # 模型构造
 
-```flow
-graph TD;
+```graphTD
 seq:(原始问句) --> entity:(预解空间);
 entity:-->one:(单跳求解器);
 entity: -->two:(双跳求解器);
